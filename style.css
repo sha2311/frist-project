@@ -134,7 +134,7 @@ section .footer .row ul li a{
     margin-right: 25px;
 }
 /* mobile view */
-@media (max-width:1000px){
+@media (min-width: 400px) and (max-width:768px){
     section .main .searchbox .search{
         width:72%;
     }
