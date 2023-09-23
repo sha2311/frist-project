@@ -133,7 +133,20 @@ section .footer .row ul li a{
     color: #5f6368;
     margin-right: 25px;
 }
-
+/* mobile view */
+@media (max-width:1000px){
+    section .main .searchbox .search{
+        width:72%;
+    }
+    section .main .searchbox .icon{
+        width:84%;
+    }
+    section .footer .row ul{
+        display:block;
+        
+    }
+   
+}
 
 
 
